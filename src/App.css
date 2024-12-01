@@ -1,0 +1,52 @@
+img {
+    width: 100%;
+    position: absolute;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+}
+
+h1 {
+    padding: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+p {
+    margin-left: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.form-control {
+    margin-bottom: 10px;
+    max-width: 20%;
+}
+
+form {
+    margin: 60px;
+}
+
+h1, .form-control, table, p {
+    position: relative;
+}
+
+table {
+    margin: 100px 0 0 60px;
+    max-width: 50%;
+    text-align: center;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+td {
+    padding: 2px 10px;
+}
+
+.border-table {
+    border-right: 1px solid #ddd;
+}
+
+.second--border-table {
+    padding: 0 10px;
+}
